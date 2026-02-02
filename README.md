@@ -64,7 +64,15 @@ npx drizzle-kit migrate
 
 ### 5. Create Project Permissions
 
-Head over to Auth tab in the Neon and claim the project with your Stack Auth account. 
+Head over to Auth tab in the Neon and claim the project with your Stack Auth account.   
+1. Log in to the Neon Console at console.neon.tech.
+2. Navigate to your Project: Select the specific project you want to claim.
+3. Access the Auth Settings: In the project's dashboard sidebar, click on the Auth tab, then select the Configuration tab.
+4. Initiate the Claim Process: Look for a section titled Claim project (or similar) and click the associated button or link, such as Claim project or Transfer ownership.
+5. Follow the Prompts: Neon will prompt you to select the Stack Auth account that will receive ownership of the project. Follow the on-screen instructions to complete the transfer.
+6. Verify in Stack Auth Dashboard: After claiming, you will have direct access to manage your project in the Stack Auth dashboard
+
+
 From there, create 2 new project roles, `admin` and `user`, where `user` is contained within `admin`.
 
 1. Navigate to the Neon Console: Log in to your Neon Console.
