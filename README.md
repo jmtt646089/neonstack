@@ -67,12 +67,13 @@ npx drizzle-kit migrate
 Head over to Auth tab in the Neon and claim the project with your Stack Auth account. 
 From there, create 2 new project roles, `admin` and `user`, where `user` is contained within `admin`.
 
-Navigate to the Neon Console: Log in to your Neon Console.
-Select a Project: Choose the project you want to manage.
-Select Branch: In the sidebar, select Branches, then select the specific branch where you want to create the role.
-Add Role: Go to the Roles & Databases tab and click Add role.
-Name the Role: Specify a name for the new role in the modal window.
-Create Role: Click Create. Neon will generate a password for the role; be sure to copy and save this password securely, as it is only shown once. 
+1. Navigate to the Neon Console: Log in to your Neon Console.
+2. Select a Project: Choose the project you want to manage.
+3. Select Branch: In the sidebar, select Branches, then select the specific branch where you want to create the role.
+4. Add Role: Go to the Roles & Databases tab and click Add role.
+5. Name the Role: Specify a name for the new role in the modal window.
+6. Create Role: Click Create. Neon will generate a password for the role; be sure to copy and save this password securely, as it is only shown once.
+7. 
 
 
 ### 6. Run the Development Server
