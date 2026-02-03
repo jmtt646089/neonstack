@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npm install && npm install drizzle-kit && npx drizzle-kit migrate && next build",
+    "build": "npm install && npx drizzle-kit migrate && next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write ."
@@ -46,6 +46,7 @@
     "date-fns": "^3.6.0",
     "dotenv": "^16.5.0",
     "drizzle-orm": "^0.44.2",
+    "drizzle-kit": "^0.31.8",
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.513.0",
