@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npm install && npx drizzle-kit migrate && next build",
+    "build": "npm install && npm install drizzle-kit && npx drizzle-kit migrate && next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write ."
