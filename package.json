@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npm cache clean --force && npm install && npm install @neondatabase/serverless && npm install -D drizzle-kit && npx drizzle-kit --version && cat /vercel/path0/drizzle.config.ts && npm install tailwindcss @tailwindcss/postcss postcss && npx @next/codemod built-in-next-font . --force && next build --turbopack",
+    "build": "npm cache clean --force && npm install && npm install @neondatabase/serverless && npm install -D drizzle-kit && npx drizzle-kit --version && cat /vercel/path0/drizzle.config.ts && npm install tailwindcss @tailwindcss/postcss postcss && npx @next/codemod built-in-next-font . --force &&npm install --save-dev tsconfig-paths-webpack-plugin && next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write ."
