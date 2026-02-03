@@ -3,7 +3,7 @@ import { StackProvider, StackTheme } from '@stackframe/stack';
 import { SidebarProvider } from '../components/ui/sidebar';
 import { stackServerApp } from '../stack';
 //import { Geist, Geist_Mono } from 'next/font/google';
-import { Inter } from 'next/font/google';
+//import { Inter } from 'next/font/google';
 import './globals.css';
 import { appConfig } from '../config/app';
 
@@ -18,13 +18,15 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}> 
-*/
-
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap', // optional, but recommended
 });
+    <html lang="en" className = {inter.className}>
+
+        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}> 
+*/
+
 
 
 export const metadata: Metadata = {
@@ -38,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className = {inter.className}>
+    <html lang="en" >
       <body >
 
         <StackProvider app={stackServerApp}>
