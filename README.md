@@ -72,8 +72,10 @@ Head over to Auth tab in the Neon and claim the project with your Stack Auth acc
 5. Follow the Prompts: Neon will prompt you to select the Stack Auth account that will receive ownership of the project. Follow the on-screen instructions to complete the transfer.
 6. Verify in Stack Auth Dashboard: After claiming, you will have direct access to manage your project in the Stack Auth dashboard
 
-Transfer project button is here https://console.neon.tech/app/projects/square-waterfall-33326737/settings
-By API: https://api-docs.neon.tech/reference/transferneonauthproviderproject
+Transfer project button is here https://console.neon.tech/app/projects/square-waterfall-33326737/settings  
+By API: https://api-docs.neon.tech/reference/transferneonauthproviderproject  
+Follow this article, successfully claimed  
+https://neon.com/docs/workflows/claimable-database-integration
 
 
 From there, create 2 new project roles, `admin` and `user`, where `user` is contained within `admin`.
