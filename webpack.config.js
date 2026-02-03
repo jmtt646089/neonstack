@@ -1,12 +1,35 @@
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
 module.exports = {
-  // ... other webpack configurations
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+            }
+          },
+          {
+            loader: 'postcss-loader'
+          }
+        ]
+      }
+    ],
+
+
   resolve: {
-    // Add the plugin to the 'resolve.plugins' array
+
     plugins: [new TsconfigPathsPlugin()],
-    // It's also important to list the file extensions your project uses
+
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
   },
-  // ... other webpack configurations
-};
+
+  }
+}
