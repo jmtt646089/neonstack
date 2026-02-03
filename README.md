@@ -78,7 +78,7 @@ Follow this article, successfully claimed
 https://neon.com/docs/workflows/claimable-database-integration
 
 
-From there, create 2 new project roles, `admin` and `user`, *where `user` is contained within `admin`*.
+From there, create 2 new project roles, `admin` and `user`, **where `user` is contained within `admin`**.
 
 1. Navigate to the Neon Console: Log in to your Neon Console.
 2. Select a Project: Choose the project you want to manage.
