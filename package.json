@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npm cache clean --force && npm install && npm install @neondatabase/serverless && npm install -D drizzle-kit && npx drizzle-kit --version && cat /vercel/path0/drizzle.config.ts && npx drizzle-kit migrate --config ./drizzle.config.ts && next build",
+    "build": "npm cache clean --force && npm install && npm install @neondatabase/serverless && npm install -D drizzle-kit && npx drizzle-kit --version && cat /vercel/path0/drizzle.config.ts  && next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write ."
