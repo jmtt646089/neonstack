@@ -5,6 +5,7 @@ export default async function Home() {
   const user = await stackServerApp.getUser();
 
   if (user) {
+    console.log("haha");
     redirect('/tools');
   }
   redirect('/handler/signup');
