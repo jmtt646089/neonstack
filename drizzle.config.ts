@@ -9,6 +9,7 @@ export default defineConfig({
   out: './drizzle',
   schema: './db/schema.ts',
   dialect: 'postgresql',
+  driver: 'neon',
   dbCredentials: {
     url: process.env.DATABASE_URL!,
   },
