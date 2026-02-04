@@ -1,9 +1,9 @@
 import { ReactNode } from 'react';
-import { ensureToolPermissions } from '@/lib/auth';
-import { SideNav } from '@/components/navigation/SideNav';
-import { SideNavHeader } from '@/components/navigation/SideNavHeader';
-import { SideNavBody } from '@/components/navigation/SideNavBody';
-import { SideNavFooter } from '@/components/navigation/SideNavFooter';
+import { ensureToolPermissions } from '../../lib/auth';
+import { SideNav } from '../../components/navigation/SideNav';
+import { SideNavHeader } from '../../components/navigation/SideNavHeader';
+import { SideNavBody } from '../../components/navigation/SideNavBody';
+import { SideNavFooter } from '../../components/navigation/SideNavFooter';
 
 interface ToolsLayoutProps {
   children: ReactNode;
