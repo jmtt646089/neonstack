@@ -4,7 +4,7 @@ import { useTransition } from 'react';
 import { MoreHorizontal } from 'lucide-react';
 import { toast } from 'sonner';
 
-import { Button } from '@/components/ui/button';
+import { Button } from '../../../components/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,7 +12,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
+} from '../../../components/ui/dropdown-menu';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -23,8 +23,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@/components/ui/alert-dialog';
-import { deleteUserAction, manageUserRoleAction } from '@/lib/admin';
+} from '../../../components/ui/alert-dialog';
+import { deleteUserAction, manageUserRoleAction } from '../../../lib/admin';
 import { UserForTable } from './UsersTableColumn';
 
 export function UserActionsCell({ user }: { user: UserForTable }) {
