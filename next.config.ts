@@ -17,4 +17,6 @@ const nextConfig: NextConfig = {
   
 };
 
+console.log("Check if next.config.ts is read and executed. -------------2---------------- JM ");
+
 export default nextConfig;
