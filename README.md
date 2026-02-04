@@ -56,7 +56,7 @@ You'll also want to register an account on [Stack Auth](https://stack-auth.com/)
 
 ### 4. Push Database Schema
 
-This command will *️⃣sync your Drizzle schema *️⃣ with your Neon database.
+This command will *️⃣ NotDoneYet sync your Drizzle schema *️⃣ with your Neon database.
 
 ```bash
 npx drizzle-kit migrate
@@ -78,7 +78,7 @@ Follow this article, successfully claimed
 https://neon.com/docs/workflows/claimable-database-integration
 
 
-From there, create 2 new project roles, `admin` and `user`, *️⃣where `user` is contained within `ad️min` *️⃣
+From there, create 2 new project roles, `admin` and `user`, *️⃣NotDoneYet where `user` is contained within `ad️min` *️⃣
 
 1. Navigate to the Neon Console: Log in to your Neon Console.
 2. Select a Project: Choose the project you want to manage.
@@ -88,7 +88,7 @@ From there, create 2 new project roles, `admin` and `user`, *️⃣where `user` 
 6. Create Role: Click Create. Neon will generate a password for the role; be sure to copy and save this password securely, as it is only shown once.
 
 
-### 6. Run the Development Server
+### 6. Run the Development Server *️⃣Ignored
 
 ```bash
 npm run dev
@@ -103,6 +103,11 @@ Since you're the first user ever of that project, head over to `http://localhost
 ### Create Vercel Project
 
 Add your newly created repo as a Vercel project, copy over all the values from your `.env` into the envinronment variables section, and deploy your app.
+
+*️⃣ Erros, modules not found, components/ui/button, hooks/useMobile, ... when deploy to Vercel  
+*️⃣  
+*️⃣
+
 
 ### Update Stack Auth domains
 
