@@ -5,10 +5,10 @@ import {
   SidebarMenu,
   SidebarMenuItem,
   SidebarMenuButton,
-} from '@/components/ui/sidebar';
+} from '../../components/ui/sidebar';
 import Link from 'next/link';
 import { SideNavAdmin } from './SideNavAdmin';
-import { appConfig } from '@/config/app';
+import { appConfig } from '../../config/app';
 
 const tools = appConfig.navigation.tools;
 
