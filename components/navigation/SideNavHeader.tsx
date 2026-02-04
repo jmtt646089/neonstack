@@ -3,9 +3,9 @@ import {
   SidebarMenu,
   SidebarMenuItem,
   SidebarMenuButton,
-} from '@/components/ui/sidebar';
+} from '../../components/ui/sidebar';
 import Image from 'next/image';
-import { appConfig } from '@/config/app';
+import { appConfig } from '../../config/app';
 
 export function SideNavHeader() {
   return (
