@@ -1,7 +1,7 @@
-import { stackServerApp } from '@/stack';
-import { columns, UserForTable } from '@/components/admin/UserTable/UsersTableColumn';
-import { UsersTable } from '@/components/admin/UserTable/UsersTable';
-import { Toaster } from '@/components/ui/sonner';
+import { stackServerApp } from '../../../stack';
+import { columns, UserForTable } from '../../../components/admin/UserTable/UsersTableColumn';
+import { UsersTable } from '../../../components/admin/UserTable/UsersTable';
+import { Toaster } from '../../../components/ui/sonner';
 
 export default async function UsersPage() {
   const usersResult = await stackServerApp.listUsers({
