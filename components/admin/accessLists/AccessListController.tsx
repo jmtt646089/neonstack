@@ -1,13 +1,13 @@
 import { desc } from 'drizzle-orm';
-import db from '@/db';
-import { stackServerApp } from '@/stack';
+import db from '../../../db';
+import { stackServerApp } from '../../../stack';
 import {
   whitelistedDomainsTable,
   whitelistedEmailsTable,
   blacklistedEmailsTable,
-} from '@/db/schema';
+} from '../../../db/schema';
 import { AccessListCard } from './AccessListCard';
-import * as actions from '@/lib/access';
+import * as actions from '../../../lib/access';
 
 export default async function AccessListController() {
   const [rawDomains, rawWhitelistedEmails, rawBlacklistedEmails] = await Promise.all([
