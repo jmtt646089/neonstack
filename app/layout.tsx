@@ -4,7 +4,8 @@ import { SidebarProvider } from '../components/ui/sidebar';
 import { stackServerApp } from '../stack';
 //import { Geist, Geist_Mono } from 'next/font/google';
 //import { Inter } from 'next/font/google';
-import './globals.css';
+//import './globals.css';
+import '../output.css';
 import { appConfig } from '../config/app';
 
 /*
