@@ -1,5 +1,5 @@
-import UserTableController from '@/components/admin/UserTable/UserTableController';
-import AccessListController from '@/components/admin/accessLists/AccessListController';
+import UserTableController from '../../../components/admin/UserTable/UserTableController';
+import AccessListController from '../../../components/admin/accessLists/AccessListController';
 
 export default async function UsersPage() {
   return (
