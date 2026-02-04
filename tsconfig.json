@@ -26,7 +26,7 @@
       "@/components/*": ["./components/*"],
       "@/components/ui/button": ["./components/ui/button.tsx"],
       "@/config/*": ["./config/*"],
-      "@/drizzle/*": ["./drizzle/*"],
+
       "@/hooks/*": ["./hooks/*"],
       "@/lib/*": ["./lib/*"],
     },
