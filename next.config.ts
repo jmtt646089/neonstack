@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
     position: 'top-right',
   },
 
-  console.log("Check if next.config.ts is read and executed. ------------2----------------- JM ");
+
   
   typescript: {
     ignoreBuildErrors: false,
