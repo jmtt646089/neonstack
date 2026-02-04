@@ -1,14 +1,14 @@
 'use server';
 
 import { redirect } from 'next/navigation';
-import { stackServerApp } from '@/stack';
-import db from '@/db';
+import { stackServerApp } from '../stack';
+import db from '../db';
 import { eq } from 'drizzle-orm';
 import {
   blacklistedEmailsTable,
   whitelistedDomainsTable,
   whitelistedEmailsTable,
-} from '@/db/schema';
+} from '../db/schema';
 
 export async function ensureToolPermissions() {
   const user = await stackServerApp.getUser({ or: 'redirect' });
