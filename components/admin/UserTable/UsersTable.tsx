@@ -18,8 +18,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/table';
-import { Button } from '@/components/ui/button';
+} from '../../../components/ui/table';
+import { Button } from '../../../components/ui/button';
 import { UserForTable } from './UsersTableColumn';
 
 interface UsersTableProps {
