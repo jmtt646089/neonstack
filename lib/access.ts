@@ -3,13 +3,13 @@
 import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 import { eq } from 'drizzle-orm';
-import db from '@/db';
-import { stackServerApp } from '@/stack';
+import db from '../db';
+import { stackServerApp } from '../stack';
 import {
   whitelistedDomainsTable,
   whitelistedEmailsTable,
   blacklistedEmailsTable,
-} from '@/db/schema';
+} from '../db/schema';
 
 const domainSchema = z.object({
   value: z
