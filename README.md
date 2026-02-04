@@ -106,6 +106,9 @@ Add your newly created repo as a Vercel project, copy over all the values from y
 
 *️⃣ Erros, modules not found, components/ui/button, hooks/useMobile, ... when deploy to Vercel  
 *️⃣ replace the alias for above  in components/ui/sidebar in github, find @/, replace to ../../ etc
+*️⃣ Done!  
+😲 Error: Cannot find module '@tailwindcss/postcss'  
+*️⃣ Google webpack Error: Cannot find module '@tailwindcss/postcss'
 *️⃣
 
 
