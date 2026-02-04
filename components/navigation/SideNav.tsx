@@ -1,6 +1,6 @@
 'use client';
 
-import { Sidebar, useSidebar } from '@/components/ui/sidebar';
+import { Sidebar, useSidebar } from '../../components/ui/sidebar';
 import * as React from 'react';
 
 const SIDEBAR_WIDTH = 64;
