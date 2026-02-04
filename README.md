@@ -56,7 +56,7 @@ You'll also want to register an account on [Stack Auth](https://stack-auth.com/)
 
 ### 4. Push Database Schema
 
-This command will <font bold color = "red"> sync your Drizzle schema </font> with your Neon database.
+This command will *️⃣sync your Drizzle schema *️⃣ with your Neon database.
 
 ```bash
 npx drizzle-kit migrate
@@ -78,7 +78,7 @@ Follow this article, successfully claimed
 https://neon.com/docs/workflows/claimable-database-integration
 
 
-From there, create 2 new project roles, `admin` and `user`, **where `user` is contained within `admin`**.
+From there, create 2 new project roles, `admin` and `user`, *️⃣where `user` is contained within `ad️min` *️⃣
 
 1. Navigate to the Neon Console: Log in to your Neon Console.
 2. Select a Project: Choose the project you want to manage.
