@@ -111,7 +111,10 @@ Add your newly created repo as a Vercel project, copy over all the values from y
   
 😲 Error: Cannot find module '@tailwindcss/postcss'  
 *️⃣ Google webpack Error: Cannot find module '@tailwindcss/postcss'  
-*️⃣  
+*️⃣ tried many times, no use  
+*️⃣ make a postcss.config.mjs with no plugins to let Next not use postcss
+*️⃣ use https://tailwindcss.com/docs/installation/`tailwind-cli`  
+*️⃣ Done
 
 
 
