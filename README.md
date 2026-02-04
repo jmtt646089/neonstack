@@ -56,7 +56,7 @@ You'll also want to register an account on [Stack Auth](https://stack-auth.com/)
 
 ### 4. Push Database Schema
 
-This command will *️⃣ NotDoneYet sync your Drizzle schema *️⃣ with your Neon database.
+This command will 🚧 NotDoneYet sync your Drizzle schema with your Neon database.
 
 ```bash
 npx drizzle-kit migrate
@@ -78,7 +78,7 @@ Follow this article, successfully claimed
 https://neon.com/docs/workflows/claimable-database-integration
 
 
-From there, create 2 new project roles, `admin` and `user`, *️⃣`NotDoneYet` where `user` is contained within `ad️min` *️⃣
+From there, create 2 new project roles, `admin` and `user`, 🚧`NotDoneYet` where `user` is contained within `ad️min` 
 
 1. Navigate to the Neon Console: Log in to your Neon Console.
 2. Select a Project: Choose the project you want to manage.
@@ -88,7 +88,7 @@ From there, create 2 new project roles, `admin` and `user`, *️⃣`NotDoneYet` 
 6. Create Role: Click Create. Neon will generate a password for the role; be sure to copy and save this password securely, as it is only shown once.
 
 
-### 6. Run the Development Server *️⃣`Ignored`
+### 6. Run the Development Server 🚧`Ignored`
 
 ```bash
 npm run dev
@@ -114,7 +114,11 @@ Add your newly created repo as a Vercel project, copy over all the values from y
 *️⃣ tried many times, no use  
 *️⃣ make a postcss.config.mjs with no plugins to let Next not use postcss
 *️⃣ use https://tailwindcss.com/docs/installation/tailwind-cli    
-*️⃣ Done
+*️⃣ Done  
+
+*️⃣ Downloand .css file and upload to my repo, same folder to globals.css, then @import "./tw-animate.css";  
+*️⃣ Done  
+
 
 
 
