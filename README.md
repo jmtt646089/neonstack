@@ -56,7 +56,7 @@ You'll also want to register an account on [Stack Auth](https://stack-auth.com/)
 
 ### 4. Push Database Schema
 
-This command will sync your Drizzle schema with your Neon database.
+This command will <font bold color = "red"> sync your Drizzle schema </font> with your Neon database.
 
 ```bash
 npx drizzle-kit migrate
