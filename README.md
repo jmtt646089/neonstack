@@ -105,7 +105,7 @@ Since you're the first user ever of that project, head over to `http://localhost
 Add your newly created repo as a Vercel project, copy over all the values from your `.env` into the envinronment variables section, and deploy your app.
 
 *️⃣ Erros, modules not found, components/ui/button, hooks/useMobile, ... when deploy to Vercel  
-*️⃣ replace the alias for above  in components/ui/sidebar in github, find @, replace to ../..
+*️⃣ replace the alias for above  in components/ui/sidebar in github, find @/, replace to ../../ etc
 *️⃣
 
 
